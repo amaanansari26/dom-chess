@@ -1,0 +1,43 @@
+.board{
+	border: solid grey;
+	position: absolute;
+	margin: auto;
+}
+.row{
+	display: table-row;
+	border:0;
+	margin: 0;
+	padding: 0;
+}
+.block{
+
+	display: table-cell;
+	height: 67px;
+	width: 67px;
+	
+	border:solid 5px transparent;
+	margin: 0;
+	padding: 0;
+}
+.w{
+	background-color: white;
+}
+.b{
+	background-color: #8a7072;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+.selected{
+	border: solid 5px #4a5ecf;
+}
+.indanger{
+	border: solid 5px #eb5e3b;
+}
+.possible{
+	border: solid 5px #574d4b;
+}
+.check{
+	border: solid 5px #1c1a1a;
+}
